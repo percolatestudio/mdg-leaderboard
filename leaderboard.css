@@ -57,6 +57,7 @@ body {
   padding: .75em 0;
   position: relative;
   overflow: hidden;
+  transition: background 300ms ease-out;
 }
 
 .player:before {
@@ -98,7 +99,7 @@ body {
   float: right;
   font-size: 1.25em;
   font-weight: 600;
-  line-height: 48px;
+  line-height: 3rem;
   padding-right: 1.25em;
   vertical-align: middle;
 }
@@ -106,6 +107,10 @@ body {
 .player.selected {
   background-color: #fefff4;
   box-shadow: #eb5f3a 4px 0 0 0 inset;
+}
+
+.player:hover {
+  background-color: #fefff4;
 }
 
 .details {
