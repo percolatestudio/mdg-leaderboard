@@ -85,14 +85,6 @@ body {
   vertical-align: middle;
 }
 
-.player .description {
-  color: #999;
-  font-size: .75em;
-  font-weight: 600;
-  letter-spacing: .3em;
-  text-transform: uppercase;
-}
-
 .player .score {
   color: #333;
   display: inline-block;
