@@ -73,19 +73,15 @@ body {
 
 .player .avatar {
   display: inline-block;
-  margin-right: 1.25em;
-  vertical-align: middle;
-}
-
-.player .metadata {
-  display: inline-block;
+  margin-right: 1em;
   vertical-align: middle;
 }
 
 .player .name {
-  display: block;
+  display: inline-block;
   font-size: 1.25em;
   font-weight: 300;
+  vertical-align: middle;
 }
 
 .player .description {
