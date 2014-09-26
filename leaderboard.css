@@ -128,7 +128,7 @@ body {
 
 .inc {
   border-radius: 3em;
-  box-shadow: #eb5f3a 0 0 1px 0 inset;
+  box-shadow: #eb5f3a 0 0 0 1px inset;
   background: transparent;
   border: 0;
   color: #eb5f3a;
@@ -140,6 +140,16 @@ body {
   margin: 0;
   outline: none;
   padding: 10px 30px;
+  transition: all 200ms ease-in;
+}
+
+.inc:hover {
+  background: #eb5f3a;
+  color: #fff;
+}
+
+.inc:active {
+  box-shadow: rgba(0,0,0,.3) 0 1px 3px 0 inset;
 }
 
 .message {
