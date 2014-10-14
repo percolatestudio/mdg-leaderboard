@@ -20,13 +20,13 @@
     {{/each}}
   </ol>
 
-  {{#if selected_name}}
-  <div class="details">
-    <div class="name">{{selected_name}}</div>
-    <button class="inc">Add 5 points</button>
-  </div>
+  {{#if selectedName}}
+    <div class="details">
+      <div class="name">{{selectedName}}</div>
+      <button class="inc">Add 5 points</button>
+    </div>
   {{else}}
-  <div class="message">Click a player to select</div>
+    <div class="message">Click a player to select</div>
   {{/if}}
 </template>
 
