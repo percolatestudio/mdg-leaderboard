@@ -117,7 +117,7 @@ body {
   vertical-align: middle;
 }
 
-.inc {
+.details .inc {
   border-radius: 3em;
   box-shadow: #eb5f3a 0 0 0 1px inset;
   background: transparent;
@@ -147,4 +147,20 @@ body {
   color: #aaa;
   line-height: 2.25rem;
   text-align: center;
+}
+
+@media (max-width: 500px) {
+  .details {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+
+  .details .name {
+    font-size: 1.2em;
+  }
 }
