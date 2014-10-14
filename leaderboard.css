@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Source Sans Pro' ,'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: normal;
   margin: 4em 0;
@@ -87,13 +87,12 @@ body {
 
 .player .score {
   color: #333;
-  display: inline-block;
+  display: block;
   float: right;
   font-size: 1.25em;
   font-weight: 600;
   line-height: 3rem;
   padding-right: 1.25em;
-  vertical-align: middle;
 }
 
 .player.selected {

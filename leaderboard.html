@@ -7,8 +7,8 @@
 <body>
   <div class="outer">
     <div class="logo"></div>
-    <h1 class="title">Scientists</h1>
-    <div class="subtitle">Select a player and give them points</div>
+    <h1 class="title">Leaderboard</h1>
+    <div class="subtitle">Select a scientist and give them points</div>
     {{> leaderboard}}
   </div>
 </body>
@@ -31,8 +31,7 @@
 </template>
 
 <template name="player">
-  <li class="player {{selected}}">
-    <img class="avatar" src="img/{{name}}.png"/>
+  <li class="player {{selected}}" data-name="{{name}}">
     <span class="name">{{name}}</span>
     <span class="score">{{score}}</span>
   </li>
