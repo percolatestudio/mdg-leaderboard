@@ -7,7 +7,7 @@ body {
   font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: normal;
-  margin: 4em 0;
+  margin: 3em 0;
   padding: 0;
 }
 
@@ -54,7 +54,7 @@ body {
 .player {
   border-bottom: 1px solid #f1f1f1;
   cursor: pointer;
-  padding: .75em 0;
+  padding: .5em 0;
   position: relative;
   overflow: hidden;
   transition: background 300ms ease-out;
