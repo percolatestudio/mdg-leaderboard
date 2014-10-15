@@ -39,7 +39,7 @@ body {
 .subtitle {
   color: #999;
   font-size: .875em;
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
   text-align: center;
 }
 
@@ -58,6 +58,7 @@ body {
   position: relative;
   overflow: hidden;
   transition: background 300ms ease-out;
+  border-left: 4px solid white;
 }
 
 .player:before {
@@ -91,13 +92,13 @@ body {
   float: right;
   font-size: 1.25em;
   font-weight: 600;
-  line-height: 3rem;
+  line-height: 2.4em;
   padding-right: 1.25em;
 }
 
 .player.selected {
   background-color: #fefff4;
-  box-shadow: #eb5f3a 4px 0 0 0 inset;
+  border-left: #eb5f3a 4px solid;
 }
 
 .player:hover {
@@ -119,9 +120,8 @@ body {
 
 .details .inc {
   border-radius: 3em;
-  box-shadow: #eb5f3a 0 0 0 1px inset;
+  border: #eb5f3a 1px solid;
   background: transparent;
-  border: 0;
   color: #eb5f3a;
   cursor: pointer;
   float: right;
@@ -150,14 +150,15 @@ body {
 }
 
 @media (max-width: 500px) {
-  .details {
+  .details, .message {
     display: block;
     position: fixed;
     bottom: 0;
-    background-color: white;
+    background-color: #fafafa;
     width: 100%;
-    padding: 10px 15px;
+    padding: 12px 15px;
     border-top: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
 
   .details .name {
@@ -171,5 +172,13 @@ body {
 
   body {
     margin: 2em 0 4em 0;
+  }
+
+  .player:hover {
+    background-color: inherit;
+  }
+
+  .player.selected:hover {
+    background-color: #fefff4;
   }
 }
